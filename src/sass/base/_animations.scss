@@ -1,0 +1,23 @@
+@keyframes heartbeat {
+  from{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.4);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+@keyframes review {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
